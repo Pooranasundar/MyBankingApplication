@@ -24,7 +24,7 @@ public class CustomerService {
         return repo.findAll();
     }
 
-    public void newOne()
+    public void secondOne()
     {
 
     }

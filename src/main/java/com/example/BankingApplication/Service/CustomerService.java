@@ -24,6 +24,11 @@ public class CustomerService {
         return repo.findAll();
     }
 
+    public void newOne()
+    {
+
+    }
+
     public void addCustomer(Customer cus)
     {
         repo.save(cus);
